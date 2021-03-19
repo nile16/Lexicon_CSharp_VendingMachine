@@ -11,12 +11,12 @@ namespace Vending_Machine.Data
         private int credit = 0;
         private readonly int[] denominations = new int[] { 1000, 500, 100, 50, 20, 10, 5, 1 };
         private Product[] products = new Product[] { new Apple(),
-                                                            new Apple(),
-                                                            new Apple(),
-                                                            new Milk(),
-                                                            new Milk(),
-                                                            new Gloves(),
-                                                            new Gloves() };
+                                                     new Apple(),
+                                                     new Apple(),
+                                                     new Milk(),
+                                                     new Milk(),
+                                                     new Gloves(),
+                                                     new Gloves() };
 
         public Product Purchase(int listIndex)
         {

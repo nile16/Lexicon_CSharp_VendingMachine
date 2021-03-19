@@ -6,8 +6,7 @@ namespace Vending_Machine.Models
 {
     public abstract class Product
     {
-        public int price;
-        public string name;
+        public readonly int price;
 
         public Product(int price)
         {

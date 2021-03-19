@@ -8,9 +8,9 @@ namespace Vending_Machine.Data
 {
     public class VendingMachine : IVending
     {
-        private static int credit = 0;
-        private static readonly int[] denominations = new int[] { 1000, 500, 100, 50, 20, 10, 5, 1 };
-        private static Product[] products = new Product[] { new Apple(),
+        private int credit = 0;
+        private readonly int[] denominations = new int[] { 1000, 500, 100, 50, 20, 10, 5, 1 };
+        private Product[] products = new Product[] { new Apple(),
                                                             new Apple(),
                                                             new Apple(),
                                                             new Milk(),
